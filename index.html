@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="#">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- JS -->
+    <script src="index.js" defer></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div id="output" class="output screen-output">
+                <div class="previous-value" data-previous-operand></div>
+                <div class="current-value" data-current-operand></div>
+            </div>
+            <button class="cell dark-cell delete-cell" data-delete>DEL</button>
+            <button class="cell dark-cell clear-cell" data-all-clear>C</button>
+            <button class="cell numbers" data-number>7</button>
+            <button class="cell numbers" data-number>8</button>
+            <button class="cell numbers" data-number>9</button>
+            <button id="divide" class="cell dark-cell displayed math disable" data-operation>÷</button>
+            <button class="cell numbers" data-number>4</button>
+            <button class="cell numbers" data-number>5</button>
+            <button class="cell numbers" data-number>6</button>
+            <button id="multiply" class="cell dark-cell displayed math disable" data-operation>*</button>
+            <button class="cell numbers" data-number>1</button>
+            <button class="cell numbers" data-number>2</button>
+            <button class="cell numbers" data-number>3</button>
+            <button id="minus" class="cell dark-cell displayed math disable" data-operation>-</button>
+            <button class="cell numbers" data-number>0</button>
+            <button id="decimal" class="cell disable" data-number>.</button>
+            <button id="equal" class="cell special-cell disable" data-equals>=</button>
+            <button id="add" class="cell dark-cell displayed math disable" data-operation>+</button>
+            </button>
+        </div>
+    </main>
+</body>
+
+</html>
