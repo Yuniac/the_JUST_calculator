@@ -5,5 +5,5 @@
 Currently the calculator supports only 4 basic math operations (+ = / * ) and it uses the not so good `eval()` just to get it to work for now but in the future, it will use a proper way to do the math as well as expanding to do more complicated math operations.
 
 ## Contributors:
-* Design and layout: Yusuf Sabbagh.
-* Logic: Yusuf Sabbagh & Agis Daniels.
+* Design and layout: [Yusuf Sabbag](https://www.github.com/Yuniac).
+* Logic: [Yusuf Sabbag](https://www.github.com/Yuniac) & [Agis Daniels](https://github.com/projectPythonator).
